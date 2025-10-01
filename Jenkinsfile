@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_DEFAULT_REGION = 'us-east-1'
+        AWS_DEFAULT_REGION = 'ap-south-1'
         IMAGE_NAME = "ryzer-app"
         GCP_PROJECT_ID = "<YOUR_GCP_PROJECT>"
     }
